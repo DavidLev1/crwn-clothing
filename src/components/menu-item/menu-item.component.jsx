@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom';
 import './menu-item.styles.scss';
 
 
+//size, linkUrl, imageUrl, title: properties in section-data.js file
 const MenuItem = ({ title, imageUrl, size, linkUrl, history, match }) => (
   <div 
     className={`${size} menu-item`} 
